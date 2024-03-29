@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "16.13.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "antdesign-sol",
+    "libraryId": "7d5bc7a3-0a58-4e7f-9ae3-e4b492b48490",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "AntdesignSol",
+    "solutionShortDescription": "AntdesignSol description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

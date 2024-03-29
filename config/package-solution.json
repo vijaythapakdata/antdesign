@@ -1,0 +1,45 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "antdesign-sol-client-side-solution",
+    "id": "7d5bc7a3-0a58-4e7f-9ae3-e4b492b48490",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.ReadBasic.All"
+      }],
+    "metadata": {
+      "shortDescription": {
+        "default": "AntdesignSol description"
+      },
+      "longDescription": {
+        "default": "AntdesignSol description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "antdesign-sol Feature",
+        "description": "The feature that activates elements of the antdesign-sol solution.",
+        "id": "faac417d-9f61-422e-acfb-dafde823679a",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/antdesign-sol.sppkg"
+  }
+}

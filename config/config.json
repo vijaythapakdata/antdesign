@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "antdesign-sol-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/antdesignSol/AntdesignSolWebPart.js",
+          "manifest": "./src/webparts/antdesignSol/AntdesignSolWebPart.manifest.json"
+        }
+      ]
+    },
+    "graph-persona-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/graphPersona/GraphPersonaWebPart.js",
+          "manifest": "./src/webparts/graphPersona/GraphPersonaWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AntdesignSolWebPartStrings": "lib/webparts/antdesignSol/loc/{locale}.js",
+    "GraphPersonaWebPartStrings": "lib/webparts/graphPersona/loc/{locale}.js"
+  }
+}
