@@ -18,7 +18,8 @@
       {
         "resource": "Microsoft Graph",
         "scope": "User.ReadBasic.All"
-      }],
+      },
+    {"resource": "Calendars.Read","scope": "Calendars.ReadWrite"}],
     "metadata": {
       "shortDescription": {
         "default": "AntdesignSol description"
