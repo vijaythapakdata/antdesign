@@ -19,3 +19,12 @@ steps:
     npm install
     npm run build
   displayName: 'npm install and build'
+- task: gulp@0
+  inputs:
+    gulpFile: 'gulpfile.js'
+    targets: 
+    gulpjs: 'node_modules/gulp/bin/gulp.js'
+    publishJUnitResults: true
+    testResultsFiles: '**/TEST-*.xml'
+    enableCodeCoverage: true
+    testFiles: 'test/*.js'
